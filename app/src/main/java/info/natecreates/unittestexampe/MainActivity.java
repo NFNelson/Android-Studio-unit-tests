@@ -10,4 +10,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public static int addnumbers(int num1, int num2){
+        //simple addition just to demonstrate unit tests
+        return num1 + num2;
+
+
+    }
 }
